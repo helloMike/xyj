@@ -1,0 +1,115 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+html .page-container,
+body .page-container {
+  width: 100%;
+  height: 100%;
+  background: #F7F7F7;
+}
+html .page-container header,
+body .page-container header {
+  height: 0.9rem;
+  padding: 0 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFF;
+}
+html .page-container header .go-back,
+body .page-container header .go-back {
+  width: 0.22rem;
+  height: 0.22rem;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: rotate(45deg);
+}
+html .page-container header .header-title,
+body .page-container header .header-title {
+  font-family: PingFangSC-Medium;
+  font-size: 0.34rem;
+  color: #273346;
+}
+html .page-container .page-content,
+body .page-container .page-content {
+  width: 100%;
+  height: calc(100% - 0.9rem);
+  padding: 0.2rem 0.3rem;
+}
+html .page-container .page-content .user-info,
+body .page-container .page-content .user-info {
+  width: 100%;
+  height: auto;
+  background: #FFF;
+  padding: 0.3rem 0.3rem;
+}
+html .page-container .page-content .user-info .user-info-warn,
+body .page-container .page-content .user-info .user-info-warn {
+  text-align: center;
+  font-size: 0.32rem;
+  color: #273346;
+  margin-bottom: 0.2rem;
+}
+html .page-container .page-content .user-info .input-text,
+body .page-container .page-content .user-info .input-text {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #F1F1F1;
+}
+html .page-container .page-content .user-info .input-text::after,
+body .page-container .page-content .user-info .input-text::after,
+html .page-container .page-content .user-info .input-text::before,
+body .page-container .page-content .user-info .input-text::before {
+  border-bottom: none;
+}
+html .page-container .page-content .remark,
+body .page-container .page-content .remark {
+  width: 100%;
+  height: auto;
+  padding: 0.3rem;
+  background: #FFF;
+  margin-top: 0.2rem;
+}
+html .page-container .page-content .remark .remarkTitle-wordsNum,
+body .page-container .page-content .remark .remarkTitle-wordsNum {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+html .page-container .page-content .remark .remarkTitle-wordsNum .remark-words-num,
+body .page-container .page-content .remark .remarkTitle-wordsNum .remark-words-num {
+  font-size: 0.24rem;
+}
+html .page-container .page-content .remark .remarkTitle-wordsNum .remark-words-num #remark-words-num,
+body .page-container .page-content .remark .remarkTitle-wordsNum .remark-words-num #remark-words-num {
+  color: #FE2424;
+}
+html .page-container .page-content .remark #remark-textarea,
+body .page-container .page-content .remark #remark-textarea {
+  width: 6.3rem;
+  height: 3rem;
+  resize: none;
+  background: #F7F7F7;
+  margin-top: 0.2rem;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 0.1rem;
+  font-size: 0.28rem;
+}
+html .page-container .page-content .submit,
+body .page-container .page-content .submit {
+  width: 3rem;
+  height: 0.9rem;
+  display: block;
+  margin: 0.6rem auto;
+  color: #273346;
+  font-size: 0.34rem;
+  background: linear-gradient(right, #FFB418, #FFE00A);
+  outline: none;
+  border: none;
+  border-radius: 0.1rem;
+}
+/*# sourceMappingURL=wyjd.css.map */

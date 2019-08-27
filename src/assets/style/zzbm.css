@@ -1,0 +1,201 @@
+.page-container {
+  width: 100%;
+  height: 100%;
+  background: #F7F7F7;
+}
+.page-container header {
+  height: 0.9rem;
+  padding: 0 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+.page-container header .go-back {
+  width: 0.22rem;
+  height: 0.22rem;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: rotate(45deg);
+}
+.page-container header .header-title {
+  font-family: PingFangSC-Medium;
+  font-size: 0.34rem;
+  color: #273346;
+}
+.page-container .header-background-part {
+  width: 100%;
+  height: 4.6rem;
+  margin-top: -0.9rem;
+  background: url("../images/my_background.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content {
+  width: 100%;
+  height: auto;
+  padding: 0 0.3rem;
+  margin-top: -1.2rem;
+}
+.page-container .page-content .page-content-item {
+  width: 100%;
+  padding: 0.3rem;
+  background: #FFF;
+  margin-bottom: 0.2rem;
+}
+.page-container .page-content .page-content-item .page-content-item-title {
+  font-size: 0.32rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+.page-container .page-content .page-content-item .item-content .radio-btn-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.page-container .page-content .page-content-item .item-content .radio-btn-group .radio-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 0.4rem;
+}
+.page-container .page-content .page-content-item .item-content .camera-btn-list {
+  width: 100%;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.page-container .page-content .page-content-item .item-content .camera-btn-list .camera-btn-item {
+  width: 33.3%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+.page-container .page-content .page-content-item .item-content .camera-btn-list .camera-btn-item:nth-child(4),
+.page-container .page-content .page-content-item .item-content .camera-btn-list .camera-btn-item:nth-child(5),
+.page-container .page-content .page-content-item .item-content .camera-btn-list .camera-btn-item:nth-child(6) {
+  margin-bottom: 0;
+}
+.page-container .page-content .page-content-item .item-content .camera-btn-list .camera-btn-item .camera-btn {
+  width: 1.6rem;
+  height: 1.6rem;
+  display: block;
+  margin-bottom: 0.16rem;
+}
+.page-container .page-content .page-content-item .item-content .camera-btn-list .camera-btn-item .camera-btn img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.page-container .page-content .page-content-item .item-content .camera-btn-list .camera-btn-item .camera-btn-name {
+  font-size: 0.28rem;
+}
+.page-container .page-content .page-content-item .item-content .camera-btn-list.needful-certificate .camera-btn-item {
+  margin-bottom: 0;
+}
+.page-container .page-content .page-content-item .item-content .base-info .input-text {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #F1F1F1;
+}
+.page-container .page-content .page-content-item .item-content .base-info .input-text::after,
+.page-container .page-content .page-content-item .item-content .base-info .input-text::before {
+  border-bottom: none;
+}
+.page-container .page-content .page-content-item .item-content .base-info .field-row {
+  border-bottom: 1px solid #F1F1F1;
+}
+.page-container .page-content .page-content-item .item-content .base-info .field-row .input-text {
+  border: none;
+}
+.page-container .page-content .page-content-item .item-content .base-info .field-row .get-yzm-container {
+  padding: 0.15rem 0.2rem;
+}
+.page-container .page-content .page-content-item .item-content .base-info .field-row .get-yzm-container .get-yzm {
+  width: 1.8rem;
+  height: 0.72rem;
+  display: block;
+  background: linear-gradient(right, #FFB418, #FFE00A);
+  outline: none;
+  border: none;
+  border-radius: 0.1rem;
+}
+.page-container .page-content .page-content-item .item-content .base-info .address {
+  border: none;
+}
+.page-container .page-content .page-content-item .item-content .base-info .address .address-container {
+  border: none;
+  padding: 0.3rem 0 0;
+}
+.page-container .page-content .page-content-item .item-content .base-info .address .address-container textarea#address {
+  width: 100%;
+  height: 0.8rem;
+  border: none;
+  resize: none;
+  margin-top: 0.2rem;
+}
+.page-container .page-content .page-content-item .item-content .base-info .relation .relation-container {
+  padding: 0.3rem 0;
+}
+.page-container .page-content .page-content-item .item-content .base-info .relation .relation-container .relation-title {
+  margin-bottom: 0.2rem;
+}
+.page-container .page-content .page-content-item .item-content .state {
+  padding: 0.3rem 0 0;
+  letter-spacing: 0.02rem;
+  font-size: 0.28rem;
+}
+.page-container .page-content .page-content-item .item-content .sign .sign-container .sign-area {
+  width: 6.3rem;
+  height: 2.4rem;
+  background: #F7F7F7;
+  margin-bottom: 0.3rem;
+}
+.page-container .page-content .page-content-item .item-content .sign .sign-container .button-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .page-content .page-content-item .item-content .sign .sign-container .button-part .reset,
+.page-container .page-content .page-content-item .item-content .sign .sign-container .button-part .ensure {
+  width: 2.1rem;
+  height: 0.72rem;
+  display: block;
+  border: none;
+  outline: none;
+  border-radius: 0.1rem;
+}
+.page-container .page-content .page-content-item .item-content .sign .sign-container .button-part .reset {
+  background: #FFF;
+  border: 1px solid #D7DADE;
+}
+.page-container .page-content .page-content-item .item-content .sign .sign-container .button-part .ensure {
+  background: linear-gradient(right, #FFB418, #FFE00A);
+}
+.page-container .page-content .submit {
+  width: 3rem;
+  height: 0.9rem;
+  display: block;
+  margin: 0.6rem auto;
+  color: #273346;
+  font-size: 0.34rem;
+  background: linear-gradient(right, #FFB418, #FFE00A);
+  outline: none;
+  border: none;
+  border-radius: 0.1rem;
+}
+.van-hairline--top-bottom::after,
+.van-hairline-unset--top-bottom::after {
+  border: none;
+}
+/*# sourceMappingURL=zzbm.css.map */

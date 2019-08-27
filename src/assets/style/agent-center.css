@@ -1,0 +1,374 @@
+.page-container {
+  width: 100%;
+  height: 100%;
+  background: #F7F7F7;
+  position: relative;
+}
+.page-container header {
+  height: 0.9rem;
+  padding: 0 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+.page-container header .go-back {
+  width: 0.22rem;
+  height: 0.22rem;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+  transform: rotate(45deg);
+}
+.page-container header .header-title {
+  font-family: PingFangSC-Medium;
+  font-size: 0.34rem;
+  color: #273346;
+}
+.page-container .header-background-part {
+  width: 100%;
+  height: 4.6rem;
+  margin-top: -0.9rem;
+  background: url("../images/my_background.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content {
+  width: 100%;
+  height: calc(100% - 3.6rem);
+  margin-top: -1.2rem;
+  padding: 0 0.3rem;
+}
+.page-container .page-content .user-pic-name-position-ercode {
+  width: 100%;
+  height: 2rem;
+  padding: 0.3rem 0.5rem 0.3rem 0.3rem;
+  background: #FFF;
+}
+.page-container .page-content .user-pic-name-position-ercode .left-part {
+  width: 1.4rem;
+  height: 100%;
+  border-radius: 50%;
+  background: #F7F7F7;
+  float: left;
+}
+.page-container .page-content .user-pic-name-position-ercode .left-part img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part {
+  float: left;
+  margin-left: 0.3rem;
+  width: calc(100% - 1.7rem);
+  height: 100%;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-name-ercode {
+  width: 100%;
+  height: 0.48rem;
+  margin-top: 0.15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-name-ercode .user-name span.name {
+  font-size: 0.48rem;
+  font-weight: 800;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-name-ercode .user-name span.female,
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-name-ercode .user-name span.male {
+  width: 0.34rem;
+  height: 0.34rem;
+  display: inline-block;
+  margin-left: 0.06rem;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-name-ercode .user-name span.male {
+  background: url("../images/my_icon_boy.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-name-ercode .user-name span.female {
+  background: url("../images/my_icon_Girl.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-name-ercode .user-ercode {
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-name-ercode .user-ercode img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.page-container .page-content .user-pic-name-position-ercode .right-part .user-position {
+  min-width: 1.44rem;
+  height: 0.4rem;
+  display: inline-block;
+  border-radius: 0.1rem;
+  background: #FFEA65;
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+  padding: 0.04rem 0.04rem 0.04rem 0.04rem;
+}
+.page-container .page-content .clearfix {
+  clear: both;
+}
+.page-container .page-content .tel-homePhone {
+  width: 100%;
+  height: 2rem;
+  padding: 0.3rem;
+  background: #FFF;
+  margin: 0.2rem auto;
+}
+.page-container .page-content .tel-homePhone a.tel,
+.page-container .page-content .tel-homePhone a.homePhone {
+  width: 100%;
+  height: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .page-content .tel-homePhone a.tel .left-part,
+.page-container .page-content .tel-homePhone a.homePhone .left-part {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .page-content .tel-homePhone a.tel .left-part span.tel-icon,
+.page-container .page-content .tel-homePhone a.homePhone .left-part span.tel-icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: block;
+  background: url("../images/my_icon_tel.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content .tel-homePhone a.tel .left-part span.homePhone-icon,
+.page-container .page-content .tel-homePhone a.homePhone .left-part span.homePhone-icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: block;
+  background: url("../images/my_icon_homePhone.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content .tel-homePhone a.tel .left-part span,
+.page-container .page-content .tel-homePhone a.homePhone .left-part span {
+  margin-left: 0.24rem;
+  font-size: 0.3rem;
+}
+.page-container .page-content .tel-homePhone a.tel span.phone-icon,
+.page-container .page-content .tel-homePhone a.homePhone span.phone-icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: block;
+  background: url("../images/my_icon_Mobile_phone.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content .bm-bm {
+  width: 100%;
+  height: 2rem;
+  padding: 0.3rem;
+  background: #FFF;
+  margin: 0.2rem auto;
+}
+.page-container .page-content .bm-bm a.my-bm,
+.page-container .page-content .bm-bm a.zz-bm {
+  width: 100%;
+  height: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .page-content .bm-bm a.my-bm .left-part,
+.page-container .page-content .bm-bm a.zz-bm .left-part {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .page-content .bm-bm a.my-bm .left-part span.my-bm-icon,
+.page-container .page-content .bm-bm a.zz-bm .left-part span.my-bm-icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: block;
+  background: url("../images/my_icon_Nanny.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content .bm-bm a.my-bm .left-part span.zz-bm-icon,
+.page-container .page-content .bm-bm a.zz-bm .left-part span.zz-bm-icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: block;
+  background: url("../images/my_icon_sign_up.png") no-repeat transparent;
+  background-size: cover;
+}
+.page-container .page-content .bm-bm a.my-bm .left-part span,
+.page-container .page-content .bm-bm a.zz-bm .left-part span {
+  margin-left: 0.24rem;
+  font-size: 0.3rem;
+}
+.page-container .page-content .bm-bm a.my-bm span.right-arrow-icon,
+.page-container .page-content .bm-bm a.zz-bm span.right-arrow-icon {
+  width: 0.4rem;
+  height: 0.4rem;
+  display: block;
+  background: url("../images/my_icon_more.png") no-repeat center transparent;
+  background-size: 0.12rem 0.24rem;
+}
+.page-container .page-content .button-part {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.page-container .page-content .button-part .more-service,
+.page-container .page-content .button-part .message {
+  width: 3rem;
+  height: 0.9rem;
+  display: block;
+  color: #273346;
+  font-size: 0.34rem;
+  background: linear-gradient(right, #FFB418, #FFE00A);
+  outline: none;
+  border: none;
+  border-radius: 0.1rem;
+}
+.page-container .page-content .button-part .more-service {
+  background: #FFF;
+}
+.page-container .erCode {
+  position: absolute;
+  z-index: 2;
+  width: 6rem;
+  height: 9rem;
+  top: 2.14rem;
+  left: calc((100% - 6rem)/2);
+}
+.page-container .erCode .erCode-container {
+  width: 100%;
+  height: 8rem;
+  background: #FFF;
+  border-radius: 0.1rem;
+  padding: 0.3rem;
+}
+.page-container .erCode .erCode-container .erCode-header {
+  width: 100%;
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.page-container .erCode .erCode-container .erCode-header .left-part {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+}
+.page-container .erCode .erCode-container .erCode-header .left-part img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.page-container .erCode .erCode-container .erCode-header .right-part {
+  width: calc(100% - 1.4rem);
+  margin-left: 0.2rem;
+  height: 1.2rem;
+  text-align: left;
+}
+.page-container .erCode .erCode-container .erCode-header .right-part p.user-name {
+  font-size: 0.3rem;
+  line-height: 0.42rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.15rem;
+}
+.page-container .erCode .erCode-container .erCode-header .right-part p.user-position {
+  font-size: 0.26rem;
+  line-height: 0.36rem;
+}
+.page-container .erCode .erCode-container img.erCode-pic {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: block;
+  margin: 0.6rem auto 1.5rem;
+}
+.page-container .erCode .erCode-container .erCode-warn {
+  text-align: center;
+  font-size: 0.26rem;
+  color: #606671;
+}
+.page-container .erCode span.icon-close {
+  margin: 0.5rem auto 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  display: block;
+  background: url("../images/QR_code_Close_icon.png") no-repeat center transparent;
+  background-size: 0.5rem 0.5rem;
+}
+.page-container .call {
+  width: 6rem;
+  height: 6.5rem;
+  position: absolute;
+  z-index: 2;
+  top: 3.4rem;
+  left: calc((100% - 6rem)/2);
+}
+.page-container .call .call-content {
+  width: 100%;
+  height: 5.5rem;
+  border-radius: 0.1rem;
+  background: #FFF;
+}
+.page-container .call .call-content .call-content-header {
+  width: 100%;
+  height: 2.06rem;
+  border-radius: 0.1rem;
+  background: #FFF url("../images/Call_bg.png") no-repeat left top;
+  background-size: 6rem 2rem;
+}
+.page-container .call .call-content .call-content-part {
+  width: 100%;
+  height: calc(100% - 2.06rem);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-container .call .call-content .call-content-part .call-num {
+  text-align: center;
+}
+.page-container .call .call-content .call-content-part .call-num .call-num-warn {
+  font-size: 0.32rem;
+  margin-bottom: 0.2rem;
+}
+.page-container .call .call-content .call-content-part .call-num .call-number {
+  font-size: 0.28rem;
+}
+.page-container .call .call-content .call-content-part .call-link {
+  width: 3rem;
+  height: 0.9rem;
+  display: block;
+  color: #273346;
+  font-size: 0.34rem;
+  background: linear-gradient(right, #FFB418, #FFE00A);
+  outline: none;
+  border: none;
+  border-radius: 0.1rem;
+  text-align: center;
+  line-height: 0.9rem;
+}
+.page-container .call .call-close-icon {
+  margin: 0.5rem auto 0;
+  width: 0.5rem;
+  height: 0.5rem;
+  display: block;
+  background: url("../images/QR_code_Close_icon.png") no-repeat center transparent;
+  background-size: 0.5rem 0.5rem;
+}
+/*# sourceMappingURL=agent-center.css.map */
