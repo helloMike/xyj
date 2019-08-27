@@ -1,0 +1,1 @@
+let remoteUrl = '/api/'module.exports = {    wx_auth_url: remoteUrl+'/f/wx/oAuthServlet', // 微信授权}
