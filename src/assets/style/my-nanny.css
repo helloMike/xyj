@@ -168,7 +168,7 @@
 .page-container .page-content .nav-tabs .van-tabs__content .van-tab__pane .tab-content.experience ul.nanny-list li.nanny .nanny-info-container .nanny-info-name-salary-tags .right-part .name-position .name {
   font-size: 0.32rem;
   color: #273346;
-  font-weight: 500;
+  font-weight: 600;
 }
 .page-container .page-content .nav-tabs .van-tabs__content .van-tab__pane .tab-content.experience ul.nanny-list li.nanny .nanny-info-container .nanny-info-name-salary-tags .right-part .name-position .position {
   color: #949494;
@@ -366,5 +366,8 @@
 }
 .page-container .page-content .nav-tabs .van-tabs__content .van-tab__pane .tab-content.experience .pagination-part .van-pagination .van-pagination__item {
   min-width: 0.72rem;
+}
+.van-tab--active {
+  font-weight: 600;
 }
 /*# sourceMappingURL=my-nanny.css.map */

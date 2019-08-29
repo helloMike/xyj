@@ -51,7 +51,7 @@
   font-size: 0.32rem;
   color: #273346;
   margin-right: 0.2rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 .page-container .page-content .nanny-name-serial-salary p.name-serial span.serial {
   font-size: 0.26rem;
@@ -89,7 +89,7 @@
   font-size: 0.32rem;
   margin-bottom: 0.3rem;
   color: #273346;
-  font-weight: 500;
+  font-weight: 600;
 }
 .page-container .page-content .person-tags .person-tags-container .person-tags-list {
   width: 100%;
@@ -130,7 +130,7 @@
   font-size: 0.32rem;
   margin-bottom: 0.25rem;
   color: #273346;
-  font-weight: 500;
+  font-weight: 600;
 }
 .page-container .page-content .detail .detail-container .detail-item .detail-item-title {
   display: flex;

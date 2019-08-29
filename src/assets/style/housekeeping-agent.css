@@ -48,7 +48,7 @@
 .page-container .page-content .branch-office.van-dropdown-menu .van-dropdown-menu__item .van-dropdown-menu__title .van-ellipsis {
   font-size: 0.32rem;
   color: #273346;
-  font-weight: 500;
+  font-weight: 600;
 }
 .page-container .page-content .branch-office.van-dropdown-menu .van-dropdown-menu__item .van-dropdown-menu__title--down::after {
   width: 0.32rem;
@@ -108,7 +108,7 @@
 .page-container .page-content .agent-list .agent .right-part .name-position .name {
   font-size: 0.32rem;
   color: #273346;
-  font-weight: 500;
+  font-weight: 600;
 }
 .page-container .page-content .agent-list .agent .right-part .name-position .position {
   display: flex;
