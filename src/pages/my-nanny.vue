@@ -672,13 +672,11 @@
                     case 1:
                         if(tag == 'experience'){
                             this.experience_aesc = !this.experience_aesc;
-                            alert("升")
                         }
                         break;
                     case 2:
                         if(tag == 'salary'){
                             this.salary_aesc = !this.salary_aesc;
-                            alert("升")
                         }
                         break;
                 }

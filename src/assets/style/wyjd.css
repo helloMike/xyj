@@ -38,6 +38,7 @@ body .page-container .page-content {
   width: 100%;
   height: calc(100% - 0.9rem);
   padding: 0.2rem 0.3rem;
+  margin-top: 0.01rem;
 }
 html .page-container .page-content .user-info,
 body .page-container .page-content .user-info {
