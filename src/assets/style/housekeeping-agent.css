@@ -39,7 +39,7 @@
   border: none;
   position: absolute;
   right: -0.22rem;
-  top: 0.1rem;
+  top: 0.05rem;
   transform: rotate(0);
   display: inline-block;
   background: url("../images/arrow-up.png") no-repeat center;
@@ -54,7 +54,7 @@
   width: 0.32rem;
   height: 0.32rem;
   right: -0.22rem;
-  top: 0.02rem;
+  top: 0.01rem;
   transform: rotate(-180deg);
   background: url("../images/arrow-down.png") no-repeat center;
   background-size: 0.32rem 0.32rem;
