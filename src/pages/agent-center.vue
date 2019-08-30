@@ -62,7 +62,7 @@
             </div>
             <div class="button-part">
                 <button type="button" class="more-service">更多服务</button>
-                <button type="button" class="message">给我留言</button>
+                <button type="button" class="message" @click="sendMessage()">给我留言</button>
             </div>
 
         </div>
@@ -120,6 +120,9 @@
             back(){
               this.$router.go(-1);
             },
+            sendMessage(){
+              this.$router.push({path:'/housekeepingAgent'})
+            },
             close(){
                 this.show_over_lay = false;
                 this.show_call = false;
@@ -139,6 +142,6 @@
         }
     }
 </script>
-<style>
+<style scoped>
     @import '../assets/style/agent-center.css';
 </style>

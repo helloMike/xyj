@@ -1,11 +1,11 @@
 <template>
-    <div class="page-container">
+    <div class="myNanny-page-container">
         <header>
             <a @click="back()" class="go-back"></a>
             <p class="header-title">我的保姆</p>
             <div class="other"></div>
         </header>
-        <div class="page-content">
+        <div class="myNanny-page-content">
             <van-tabs v-model="active" class="nav-tabs"  line-width="0" animated swipeable>
                 <van-tab :disabled="choosed">
                     <div slot="title" id="all" @click="choosed=false">

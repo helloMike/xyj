@@ -253,7 +253,6 @@
         }
     }
 </script>
-<style>
+<style scoped>
     @import '../assets/style/housekeeping-agent.css';
-
 </style>

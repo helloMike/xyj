@@ -39,7 +39,7 @@
                 </div>
                 <textarea name="remark" id="remark-textarea" cols="30" rows="10" maxlength="120" placeholder="请填写备注详情"></textarea>
             </div>
-            <button type="button" class="submit">提交留言</button>
+            <button type="button" class="submit" @click="sendMessage()">提交留言</button>
         </div>
     </div>
 </template>
@@ -57,6 +57,9 @@
         methods:{
           back(){
             this.$router.go(-1);
+          },
+          sendMessage(){
+            this.$router.push({path:'/agent-center'})
           }
         },
         created(){
@@ -64,6 +67,6 @@
         }
     }
 </script>
-<style  scoped>
+<style scoped>
 @import '../assets/style/wyjd.css';
 </style>

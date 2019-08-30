@@ -262,6 +262,6 @@
         }
     }
 </script>
-<style>
+<style scoped>
     @import '../assets/style/zzbm.css';
 </style>
